@@ -1,0 +1,22 @@
+/* Convert all keyframe animations from styled-components */
+@keyframes marquee {
+    0% { transform: translate3d(calc(var(--offset) * -1), 0, 0); }
+    100% { transform: translate3d(calc(-100% - var(--offset)), 0, 0); }
+  }
+  
+  @keyframes marquee-inverted {
+    0% { transform: translate3d(calc(-100% - var(--offset)), 0, 0); }
+    100% { transform: translate3d(calc(var(--offset) * -1), 0, 0); }
+  }
+  
+  /* Convert global styles */
+  .overflow {
+    overflow: hidden;
+    display: inline-block;
+    margin-top: -3%;
+  }
+  
+  [class^="anim-"],
+  [class*=" anim-"] {
+    will-change: transform;
+  }
