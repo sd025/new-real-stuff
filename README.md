@@ -171,5 +171,3 @@ npm start
 This project is proprietary to Aanav Healthcare.
 
 ---
-
-**Built with ❤️ for Aanav Healthcare**
