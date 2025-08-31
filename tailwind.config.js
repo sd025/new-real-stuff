@@ -8,30 +8,29 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // Aanav Healthcare Brand Colors
-        primary: {
-          50: '#fef2f2',
-          100: '#fee2e2',
-          200: '#fecaca',
-          300: '#fca5a5',
-          400: '#f87171',
-          500: '#e53e3e', // Main brand red
-          600: '#dc2626',
-          700: '#b91c1c',
-          800: '#991b1b',
-          900: '#7f1d1d',
-        },
-        secondary: {
+       primary: {
           50: '#eff6ff',
           100: '#dbeafe',
           200: '#bfdbfe',
           300: '#93c5fd',
           400: '#60a5fa',
-          500: '#4299e1', // Trust blue
-          600: '#2563eb',
-          700: '#1d4ed8',
-          800: '#1e40af',
+          500: '#2563eb',
+          600: '#1d4ed8',
+          700: '#1e40af',
+          800: '#1e3a8a',
           900: '#1e3a8a',
+        },
+        secondary: {
+          50: '#f0fdfa',
+          100: '#ccfbf1',
+          200: '#99f6e4',
+          300: '#5eead4',
+          400: '#2dd4bf',
+          500: '#0d9488',
+          600: '#0f766e',
+          700: '#115e59',
+          800: '#134e4a',
+          900: '#042f2e',
         },
         wellness: {
           50: '#f0fdf4',
@@ -39,11 +38,23 @@ module.exports = {
           200: '#bbf7d0',
           300: '#86efac',
           400: '#4ade80',
-          500: '#38a169', // Wellness green
-          600: '#16a34a',
-          700: '#15803d',
-          800: '#166534',
-          900: '#14532d',
+          500: '#16a34a',
+          600: '#15803d',
+          700: '#166534',
+          800: '#14532d',
+          900: '#052e16',
+        },
+        medical: {
+          50: '#fef7ee',
+          100: '#fdedd4',
+          200: '#fbd7a8',
+          300: '#f8bb71',
+          400: '#f59538',
+          500: '#f2741e',
+          600: '#e35a13',
+          700: '#bc4413',
+          800: '#963716',
+          900: '#7a2f16',
         },
         neutral: {
           50: '#f8fafc',
@@ -60,7 +71,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
-        serif: ['Playfair Display', 'Georgia', 'serif'], // For logo-style headings
+        serif: ['Playfair Display', 'Georgia', 'serif'],
       },
       fontSize: {
         'xs': ['0.75rem', { lineHeight: '1rem' }],
