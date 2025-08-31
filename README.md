@@ -1,4 +1,4 @@
-# Aanav Healthcare - Modern Wellness Platform
+# Modern Wellness Platform
 
 A modern, mobile-first healthcare and wellness e-commerce platform built with Next.js 15, featuring premium supplements and wellness products.
 
